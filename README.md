@@ -1,2 +1,26 @@
-# onnx2torch-weightless-loader
-A patch to onnx2torch which enables for loading only the graph portion of an ONNX protobuf, placing FakeTensors in place of external data.
+# ONNX2Torch Weightless Loader
+
+A patch for the ONNX to PyTorch conversion process.
+
+## Development
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/onnx2torch-weightless-loader.git
+cd onnx2torch-weightless-loader
+
+# Install development dependencies
+pip install -r requirements-dev.txt
+```
+
+### Running Tests
+
+```bash
+pytest tests/
+```
+
+## Usage
+
+This is not a standalone package but a patch for another repository. See the source code for implementation details.
